@@ -26,7 +26,7 @@ export default function App() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            Tasty Restaurant
+            Avengers Restaurant
           </Typography>
 
           <Button color="inherit" component={Link} to="/">
