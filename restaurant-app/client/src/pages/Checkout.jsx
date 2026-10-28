@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 
 import api from "../services/api";
-import { clearCart } from "../features/cart/cartSlice";
+import { clearCart } from "../../src/features/card/cardSlice";
 
 export default function Checkout() {
   const dispatch = useDispatch();

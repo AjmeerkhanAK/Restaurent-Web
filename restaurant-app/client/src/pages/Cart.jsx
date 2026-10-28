@@ -14,7 +14,7 @@ import {
   increaseQuantity,
   decreaseQuantity,
   removeFromCart
-} from "../features/cart/cartSlice";
+} from "../../src/features/card/cardSlice";
 
 export default function Cart() {
   const dispatch = useDispatch();

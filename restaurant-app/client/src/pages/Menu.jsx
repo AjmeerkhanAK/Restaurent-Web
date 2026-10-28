@@ -15,7 +15,7 @@ import {
 } from "@mui/material";
 
 import { fetchFoods } from "../features/food/foodSlice";
-import { addToCart } from "../features/cart/cartSlice";
+import { addToCart } from "../../src/features/card/cardSlice";
 
 export default function Menu() {
   const dispatch = useDispatch();
